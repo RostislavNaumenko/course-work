@@ -1,0 +1,238 @@
+@import 'catalog.css';
+@import 'style.css';
+.order-modal {
+    padding: 40px;
+    max-width: 592px;
+    min-height: 542px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-modal__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-modal__title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--color-accent);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-modal__number {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-modal__info {
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 34px 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-modal__info span {
+    font-weight: 600;
+}
+
+.order-modal__info-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.order-modal__btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    /* cursor: pointer; */
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .order-modal__btn::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    background-image: url("../img/arrow-down.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order-modal__btn.open::after {
+    transform: translateY(-50%) rotate(180deg);
+} */
+
+.order {
+    padding: 0 40px;
+}
+
+.order__label {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order__input {
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 240px;
+    height: 45px;
+    background: #efefef;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.order__input::placeholder {
+    color: #b1b1b1;
+}
+
+.order-product {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.order-modal__list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.order-product__img {
+    max-width: 100px;
+    max-height: 90px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+
+/* .order-modal__list {
+    display: none;
+} */
+
+.order-modal__item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.order-product__text {
+    margin-right: 10px;
+}
+
+.order-product__title {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-product__about {
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-product-counter {
+    display: flex;
+}
+
+.order-product__count__text {
+    display: flex;
+    margin-bottom: 2px;
+    padding-right: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-product__count {
+    display: flex;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-product__price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+}
+
+.order-product__delete {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border: none;
+    padding: 14px 0;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    background-color: var(--color-accent);
+    cursor: pointer;
+    background-color: #ffc222;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.modal-close {
+    margin-top: -30px;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url("../img/cross.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}

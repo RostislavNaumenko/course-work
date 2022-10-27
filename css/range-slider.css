@@ -1,0 +1,233 @@
+/* Chrome, Safari, Edge, Opera */
+
+.serch_field {
+    height: 60px;
+    font-weight: 100%;
+    background-color: #303030;
+    margin-bottom: 40px;
+}
+
+.serch-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serch-text {
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.serch-input {
+    margin-top: 13px;
+}
+
+.input {
+    border-radius: 7px;
+    height: 30px;
+    width: 400px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.filters-price__inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filters-price__label {
+    display: flex;
+    align-items: center;
+    width: 133px;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.filters-price__text {
+    font-size: 14px;
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filters-price__text:first-child {
+    margin-right: 10px;
+}
+
+.filters-price__text:last-child {
+    margin-left: 10px;
+}
+
+.filters-price__input {
+    border: none;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+.filters__item {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.filters-price-btn {
+    display: flex;
+}
+
+.filters-price__title {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filters-price__slider {
+    margin-bottom: 20px;
+}
+
+.noUi-connect {
+    background-color: #ffc222;
+}
+
+.noUi-target {
+    background-color: #bfbfbf;
+    border: none;
+    border-radius: 100px;
+    box-shadow: none;
+    height: 3px;
+}
+
+.noUi-handle::after,
+.noUi-handle::before {
+    display: none;
+}
+
+.noUi-handle {
+    box-shadow: none;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 3px solid #ffc222;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 22px;
+    height: 22px;
+    top: -10px;
+}
+
+.noUi-horizontal .noUi-handle-upper {
+    right: 0;
+}
+
+.filtres-category__title {
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.filtres-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373636;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.filter-category__btn {
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #373636;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.filter-price__btn {
+    border: none;
+    cursor: pointer;
+    line-height: 35px;
+    color: #ffffff;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 48%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.filter-price__btn:disabled {
+    background-color: #FFF2D0;
+}
+
+.filter-catDiam__btn {
+    border: none;
+    cursor: pointer;
+    line-height: 35px;
+    color: #ffffff;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filter-null__btn {
+    border: none;
+    cursor: pointer;
+    line-height: 35px;
+    color: #ffffff;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 48%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filter-diametr__btn {
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #373636;
+    margin-bottom: 11px;
+    margin-left: 30px;
+}
